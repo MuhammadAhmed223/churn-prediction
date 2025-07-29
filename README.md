@@ -2,9 +2,30 @@
 
 This is a machine learning project that predicts customer churn for a telecom company using a trained classification model. It includes a GUI-based interface built with Tkinter, allowing users to input customer details and receive churn predictions.
 
-## 📁 Project Structure
-<pre lang="markdown"> ``` churn-prediction/ ├── app/ │ ├── app.py # CLI or base script │ └── gui_app.py # Tkinter GUI application ├── models/ │ ├── best_model.pkl # Trained machine learning model │ ├── scaler.pkl # StandardScaler object used for preprocessing │ └── feature_names.pkl # Ordered list of training feature names ├── notebooks/ │ └── 01_training.ipynb # Jupyter notebook for data cleaning, EDA, model training & evaluation ├── data/ │ └── Telco-Customer-Churn.csv # Raw dataset ├── requirements.txt # Python package dependencies ├── README.md # Project documentation └── .gitignore # Files and folders to ignore in version control ``` </pre>
+## 📂 Project Structure
 
+```plaintext
+churn-prediction/
+├── app/                          # Application scripts
+│   ├── app.py                    # CLI or base script
+│   └── gui_app.py                # Tkinter GUI application
+│
+├── models/                       # Serialized model files
+│   ├── best_model.pkl            # Trained machine learning model
+│   ├── scaler.pkl                # StandardScaler object used for preprocessing
+│   └── feature_names.pkl         # Ordered list of training feature names
+│
+├── notebooks/                    # Jupyter notebooks
+│   └── 01_training.ipynb         # EDA, preprocessing, training, evaluation
+│
+├── data/                         # Dataset directory
+│   └── Telco-Customer-Churn.csv  # Raw dataset
+│
+├── requirements.txt              # Python package dependencies
+├── README.md                     # Project documentation
+└── .gitignore                    # Git ignore rules
+```
+ 
 ## 🧠 Model Summary
 
 The model is trained using customer information such as:
