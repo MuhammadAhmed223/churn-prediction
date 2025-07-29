@@ -3,7 +3,7 @@
 This is a machine learning project that predicts customer churn for a telecom company using a trained classification model. It includes a GUI-based interface built with Tkinter, allowing users to input customer details and receive churn predictions.
 
 ## 📁 Project Structure
-
+---
 churn-prediction/
 ├── app/
 │ ├── app.py # CLI or base script
@@ -19,7 +19,7 @@ churn-prediction/
 ├── requirements.txt # Python package dependencies
 ├── README.md # This file
 └── .gitignore # Files and folders to ignore in version control
-
+---
 
 
 ---
