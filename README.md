@@ -67,7 +67,7 @@ A Tkinter-based user-friendly GUI (`gui_app.py`) lets users input features and p
 
 ### ✅ Example Input (for testing):
 
-## ```plaintext
+```plaintext
 Gender: Female
 Senior Citizen: 0
 Partner: Yes
@@ -87,15 +87,16 @@ PaperlessBilling: Yes
 PaymentMethod: Electronic check
 MonthlyCharges: 75.3
 TotalCharges: 864.5
+```
 
 ## 📦 Installation
-
-git clone https://github.com/MuhammadAhmed223/churn-prediction.git
-cd churn-prediction
-pip install -r requirements.txt
-
+```
+ git clone https://github.com/MuhammadAhmed223/churn-prediction.git
+ cd churn-prediction
+ pip install -r requirements.txt
+```
 ## 🚀 Running the GUI
-
-cd app
-python gui_app.py
-
+```
+ cd app
+ python gui_app.py
+```
